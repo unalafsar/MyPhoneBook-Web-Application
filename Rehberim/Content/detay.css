@@ -1,0 +1,38 @@
+﻿.container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-left: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.person-details {
+    padding: 20px;
+    border: 1px solid #eee;
+    background-color: #f9f9f9;
+    flex: 1;
+}
+
+.detail-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    flex: 0 0 150px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Increase the font size for person details */
+.person-details label,
+.person-details span {
+    font-size: 18px; /* Adjust this value as needed */
+}
+
+/* Daha fazla stillemeler ekleyebilirsiniz */
