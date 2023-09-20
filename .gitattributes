@@ -1,6 +1,7 @@
 *.js linguist-detectable=false
 *.csharp linguist-detectable=true
-*.css linguist-detectable=true
+*.CSS linguist-detectable=true
+*.ASP.NET linguist-detectable=true
 ###############################################################################
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
